@@ -1,0 +1,5 @@
+ID,Nom_Prenom,NIN,Numero_Wassit,Telephone,Wilaya,Minha,Plateforme,Dernier_Renouvellement,Date_Expiration,Jours_Restants,Statut,Total_Paye_DA
+1,"Boudiaf Mohamed Amine","109941601012345601","160194001245","0551234567","16 - Alger",OUI,V1,2026-05-17,2026-11-13,8,"Prolongée (Expire bientôt)",300
+2,"Merabet Fatima Zohra","119983102054321002","310298004512","0662345678","31 - Oran",OUI,V1,2026-04-29,2026-10-26,-10,"Expirée (<1 an - Réactivable)",200
+3,"Khelifi Yacine","109922501098765403","250192007890","0773456789","25 - Constantine",OUI,V1,2026-11-05,2027-05-04,180,"Active (6 mois)",400
+4,"Mansouri Karim","109961901011223304","190196003321","0559876543","19 - Sétif",NON,V2,2026-09-26,2027-03-25,140,"Migré Wassit Online 2",150

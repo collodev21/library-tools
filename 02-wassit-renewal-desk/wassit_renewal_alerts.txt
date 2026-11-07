@@ -1,0 +1,6 @@
+================================================================================
+  RAPPORT D'ALERTES RENOUVELLEMENT ANEM WASSIT.DZ - DATE: 2026-11-05
+================================================================================
+
+[URGENT <=15J] Boudiaf Mohamed Amine | Tél: 0551234567 | NIN: 109941601012345601 | Wassit: 160194001245 | Expire: 2026-11-13 (8 jours) | Minha: OUI
+[EXPIRE] Merabet Fatima Zohra | Tél: 0662345678 | NIN: 119983102054321002 | Wassit: 310298004512 | Expire: 2026-10-26 (-10 jours) | Minha: OUI

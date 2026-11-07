@@ -1,0 +1,14 @@
+[package]
+name = "wassit_shop_desk"
+version = "1.0.0"
+edition = "2021"
+description = "ANEM Wassit Online Shop Manager & Renewal (Prolongation) Client Database Desk Tool"
+
+[[bin]]
+name = "WassitShopDesk"
+path = "src/main.rs"
+
+[profile.release]
+opt-level = 3
+strip = true
+lto = true
