@@ -1,0 +1,10 @@
+# Sample Shelf Scan File for STACK-A1-LIT
+# Format: Barcode (one per line, comments start with #)
+LIB-001001
+LIB-001002
+LIB-001003
+LIB-003002
+LIB-001005
+LIB-001006
+LIB-001007
+LIB-UNKNOWN-999

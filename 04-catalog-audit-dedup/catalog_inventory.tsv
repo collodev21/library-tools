@@ -1,0 +1,29 @@
+﻿# Barcode	ISBN	Title	Author	Classification	Cutter	ShelfLocation	Copy	Year	Status	LastAudited	Notes
+LIB-001001	978-0141439518	Pride and Prejudice	Austen, Jane	823.7	A933p	STACK-A1-LIT	1	1813	Available	2026-10-24 00:00	Penguin Classics Edition
+LIB-001002	978-0141439518	Pride and Prejudice	Austen, Jane	823.7	A933p	STACK-A1-LIT	2	1813	Available	2026-10-24 00:00	Copy 2 reserve
+LIB-001003	978-0451524935	1984	Orwell, George	823.912	O79n	STACK-A1-LIT	1	1949	Available	2026-11-02 00:00	Signet Classic
+LIB-001004	978-0061120084	To Kill a Mockingbird	Lee, Harper	813.54	L478t	STACK-A1-LIT	1	1960	Available	2026-11-04 00:00	Harper Perennial
+LIB-001005	978-0679720201	The Stranger (L'Etranger)	Camus, Albert	843.914	C211e	STACK-A1-LIT	1	1942	Available	2026-10-26 00:00	Vintage International - English trans.
+LIB-001006	978-0385420174	Palace Walk (Cairo Trilogy)	Mahfouz, Naguib	892.736	M214p	STACK-A1-LIT	1	1956	Available	2026-10-26 00:00	Anchor Books Nobel Laureate Edition
+LIB-001007	978-0743273565	The Great Gatsby	Fitzgerald, F. Scott	813.52	F553g	STACK-A1-LIT	1	1925	CheckedOut	2026-10-18 00:00	Borrowed by member M-1049
+LIB-002001	978-0547928227	The Hobbit	Tolkien, J.R.R.	823.912	T649h	STACK-A2-LIT	1	1937	Available	2026-10-30 00:00	Mariner Books
+LIB-002002	978-0544003415	The Fellowship of the Ring	Tolkien, J.R.R.	823.912	T649f	STACK-A2-LIT	1	1954	Available	2026-10-30 00:00	Lord of the Rings Vol 1
+LIB-002003	978-0441172719	Dune	Herbert, Frank	813.54	H536d	STACK-A2-LIT	1	1965	Available	2026-10-30 00:00	Ace Books 40th Anniv
+LIB-002004	978-0553573404	A Game of Thrones	Martin, George R.R.	813.54	M381g	STACK-A2-LIT	1	1996	Available	2026-10-30 00:00	Song of Ice and Fire Book 1
+LIB-003001	978-0262033848	Introduction to Algorithms (CLRS)	Cormen, Thomas H.	005.1	C811i	STACK-B1-CS	1	2009	ReferenceOnly	2026-11-05 00:00	Reference desk only. 3rd Edition.
+LIB-003002	978-0132350884	Clean Code: A Handbook of Agile Software Craftsmanship	Martin, Robert C.	005.13	M382c	STACK-B1-CS	1	2008	Available	2026-11-05 00:00	Prentice Hall
+LIB-003003	978-0201616224	The Pragmatic Programmer	Hunt, Andrew	005.1	H939p	STACK-B1-CS	1	1999	Available	2026-11-05 00:00	Addison-Wesley
+LIB-003004	978-0201896831	The Art of Computer Programming, Vol 1	Knuth, Donald E.	005.1	K74a	STACK-B1-CS	1	1997	ReferenceOnly	2026-10-28 00:00	Volume 1: Fundamental Algorithms
+LIB-003005	978-0596517748	JavaScript: The Good Parts	Crockford, Douglas	005.133	C938j	STACK-B1-CS	1	2008	Available	2026-10-28 00:00	O'Reilly Media
+LIB-003006	978-0131103627	The C Programming Language	Kernighan, Brian W.	005.133	K39c	STACK-B1-CS	1	1988	Available	2026-10-28 00:00	2nd Edition (ANSI C)
+LIB-004001	978-0553380163	A Brief History of Time	Hawking, Stephen	523.1	H393b	STACK-B2-SCI	1	1988	Available	2026-11-01 00:00	Bantam 10th Anniversary
+LIB-004002	978-0465024377	Six Easy Pieces	Feynman, Richard P.	530	F435s	STACK-B2-SCI	1	1995	Available	2026-11-01 00:00	Basic Books
+LIB-004003	978-0199291151	The Selfish Gene	Dawkins, Richard	576.8	D271s	STACK-B2-SCI	1	1976	Available	2026-11-01 00:00	Oxford Landmark Science
+LIB-004004	978-0394716725	Cosmos	Sagan, Carl	520	S129c	STACK-B2-SCI	1	1980	Available	2026-11-01 00:00	Random House
+LIB-005001	978-0691166377	The Muqaddimah: An Introduction to History	Ibn Khaldun	901	I13m	STACK-C1-HIST	1	1377	ReferenceOnly	2026-10-23 00:00	Princeton Classic translated by Franz Rosenthal
+LIB-005002	978-0062316097	Sapiens: A Brief History of Humankind	Harari, Yuval Noah	909	H254s	STACK-C1-HIST	1	2014	Available	2026-10-23 00:00	Harper
+LIB-005003	978-0140449136	The Republic	Plato	321.07	P718r	STACK-C1-HIST	1	-375	Available	2026-10-23 00:00	Penguin Classics (Desmond Lee translation)
+LIB-005004	978-0140449495	Meditations	Marcus Aurelius	188	M322m	STACK-C1-HIST	1	180	Available	2026-10-23 00:00	Penguin Classics
+LIB-001008	978-0062420701	To Kill a Mockingbird (50th Anniversary Edition)	Harper Lee	813.54	L478t	STACK-A1-LIT	2	2010	Available	2026-11-04 00:00	Special commemorative edition - different ISBN
+LIB-003099	978-0132350884	Clean Code: A Handbook of Agile Software Craftsmanship (Copy 2)	Robert C. Martin	005.13	M382c	STACK-B1-CS	2	2008	Available		Suspected duplicate record
+LIB-001099	978-0140449112	The Odyssey	Homer	883.01	H766o	STACK-A1-LIT	1	-800	Missing	2026-09-23 00:00	Reported missing during autumn audit
