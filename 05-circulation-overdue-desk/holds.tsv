@@ -1,0 +1,4 @@
+﻿HoldId	ItemBarcode	Title	PatronId	RequestDate	Status	PickupDeadline	NotificationSent
+HLD-2026-001	LIB-100103	Design Patterns: Elements of Reusable Object-Oriented Software	PAT-1002	2026-11-03	AwaitingPickup	2026-11-10	1
+HLD-2026-002	LIB-100105	Artificial Intelligence: A Modern Approach	PAT-1001	2026-11-05	Queued		0
+HLD-2026-003	LIB-100107	Operating System Concepts	PAT-1007	2026-11-06	Queued		0

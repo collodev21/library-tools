@@ -1,0 +1,11 @@
+﻿PatronId	FullName	Category	Email	Phone	Department	RegisteredDate	ExpiryDate	Status	Notes
+PAT-1001	Alice Martin	Undergraduate	alice.martin@campus.univ.dz	+213 551 234 567	Computer Science	2026-03-07	2027-03-07	Active	Senior undergraduate project lead
+PAT-1002	Dr. Robert Langdon	Faculty	r.langdon@campus.univ.dz	+213 552 345 678	History & Iconology	2023-11-07	2028-11-07	Active	Professor of Cultural Heritage
+PAT-1003	Kevin Zhang	Undergraduate	k.zhang@campus.univ.dz	+213 553 456 789	Electrical Engineering	2026-05-07	2027-05-07	Active	Robotics Lab assistant
+PAT-1004	Prof. Amina Mansouri	Faculty	a.mansouri@campus.univ.dz	+213 554 567 890	Applied Mathematics	2021-11-07	2029-11-07	Active	Department Chair
+PAT-1005	Sarah Connor	Community	s.connor@cybernet-algeria.org	+213 555 678 901	Public Member	2026-07-07	2027-07-07	Active	Independent AI researcher
+PAT-1006	Driss Bensalem	Postgraduate	d.bensalem@campus.univ.dz	+213 556 789 012	Data Science & NLP	2025-09-07	2027-09-07	Active	PhD Candidate
+PAT-1007	Elena Rostova	Postgraduate	e.rostova@campus.univ.dz	+213 557 890 123	Theoretical Physics	2026-01-07	2028-01-07	Active	Exchange Fellow
+PAT-1008	Tariq Haddad	Community	tariq.haddad@freemail.dz	+213 558 901 234	Public Member	2025-11-07	2027-01-07	Active	Archival book club member
+PAT-1009	Yasmine Belkacem	Undergraduate	y.belkacem@campus.univ.dz	+213 559 012 345	Molecular Biology	2026-09-07	2027-09-07	Active	First year student
+PAT-1010	Marcus Vance	Alumni	m.vance@alumni.univ.dz	+213 560 123 456	Literature & Philosophy	2024-11-07	2026-10-07	Suspended	Card expired; past unpaid replacement fee

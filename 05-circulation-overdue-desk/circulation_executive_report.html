@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Library Circulation & Overdue Executive Dashboard</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; }
+    body { background: #f8fafc; color: #1e293b; padding: 24px; }
+    .container { max-width: 1200px; margin: 0 auto; }
+    .header { background: #1e3a5f; color: #fff; padding: 24px 30px; border-radius: 8px; margin-bottom: 24px; display: flex; justify-content: space-between; align-items: center; }
+    .header h1 { font-size: 22px; font-weight: 700; }
+    .header p { font-size: 13px; opacity: 0.85; margin-top: 4px; }
+    .kpi-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin-bottom: 24px; }
+    .kpi-card { background: #fff; padding: 20px; border-radius: 8px; border: 1px solid #e2e8f0; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+    .kpi-card h4 { font-size: 11px; text-transform: uppercase; color: #64748b; margin-bottom: 8px; font-weight: 600; letter-spacing: 0.5px; }
+    .kpi-card .val { font-size: 24px; font-weight: 700; color: #0f172a; }
+    .kpi-card.alert .val { color: #dc2626; }
+    .kpi-card.warn .val { color: #d97706; }
+    .kpi-card.success .val { color: #16a34a; }
+    .section { background: #fff; border-radius: 8px; border: 1px solid #e2e8f0; padding: 24px; margin-bottom: 24px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+    .section h2 { font-size: 16px; font-weight: 700; color: #0f172a; margin-bottom: 16px; display: flex; justify-content: space-between; align-items: center; }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    th { background: #f1f5f9; text-align: left; padding: 10px 12px; font-weight: 600; color: #475569; border-bottom: 2px solid #cbd5e1; }
+    td { padding: 10px 12px; border-bottom: 1px solid #e2e8f0; }
+    .pill { display: inline-block; padding: 3px 10px; border-radius: 12px; font-size: 11px; font-weight: 700; }
+    .pill-duesoon { background: #dbeafe; color: #1d4ed8; }
+    .pill-tier1 { background: #fef3c7; color: #b45309; }
+    .pill-tier2 { background: #ffedd5; color: #c2410c; }
+    .pill-tier3 { background: #fee2e2; color: #b91c1c; }
+    .right { text-align: right; }
+    @media print { body { padding: 0; background: #fff; } .header { border-radius: 0; } }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div>
+        <h1>Circulation & Overdue Management Dashboard</h1>
+        <p>As of novembre 07, 2026 11:40 &bull; University Central Library</p>
+      </div>
+      <button onclick="window.print()" style="background:#fff; color:#1e3a5f; font-weight:700; padding:8px 16px; border:none; border-radius:6px; cursor:pointer;">🖨 Print Report</button>
+    </div>
+    <div class="kpi-grid">
+      <div class="kpi-card"><h4>Active Loans</h4><div class="val">8</div></div>
+      <div class="kpi-card warn"><h4>Due Soon (Courtesy)</h4><div class="val">1</div></div>
+      <div class="kpi-card alert"><h4>Overdue Total</h4><div class="val">3</div></div>
+      <div class="kpi-card alert"><h4>Outstanding Fines</h4><div class="val">$112,50</div></div>
+      <div class="kpi-card success"><h4>Fines Collected</h4><div class="val">$5,00</div></div>
+      <div class="kpi-card"><h4>Active Hold Queue</h4><div class="val">3</div></div>
+    </div>
+    <div class="section">
+      <h2>Active Overdue Items & Escalation Tiers (4 items)</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Loan ID</th>
+            <th>Patron</th>
+            <th>Category</th>
+            <th>Item Barcode</th>
+            <th>Book Title</th>
+            <th>Due Date</th>
+            <th class="right">Days Late</th>
+            <th>Escalation Tier</th>
+            <th class="right">Fine Balance</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>LN-2026-0106</code></td>
+            <td><strong>Tariq Haddad</strong><br><small style="color:#64748b;">PAT-1008</small></td>
+            <td>Community</td>
+            <td><code>LIB-100110</code></td>
+            <td>Compilers: Principles, Techniques, and Tools (Dragon Book)</td>
+            <td>2026-09-30</td>
+            <td class="right"><strong>38</strong></td>
+            <td><span class="pill pill-tier3">FinalDemand</span></td>
+            <td class="right" style="font-weight:700; color:#b91c1c;">$95,00</td>
+          </tr>
+          <tr>
+            <td><code>LN-2026-0105</code></td>
+            <td><strong>Sarah Connor</strong><br><small style="color:#64748b;">PAT-1005</small></td>
+            <td>Community</td>
+            <td><code>LIB-100109</code></td>
+            <td>Computer Networks: A Systems Approach</td>
+            <td>2026-10-23</td>
+            <td class="right"><strong>15</strong></td>
+            <td><span class="pill pill-tier2">SecondNotice</span></td>
+            <td class="right" style="font-weight:700; color:#b91c1c;">$15,00</td>
+          </tr>
+          <tr>
+            <td><code>LN-2026-0104</code></td>
+            <td><strong>Kevin Zhang</strong><br><small style="color:#64748b;">PAT-1003</small></td>
+            <td>Undergraduate</td>
+            <td><code>LIB-100107</code></td>
+            <td>Operating System Concepts (10th Edition)</td>
+            <td>2026-11-02</td>
+            <td class="right"><strong>5</strong></td>
+            <td><span class="pill pill-tier1">FirstNotice</span></td>
+            <td class="right" style="font-weight:700; color:#b91c1c;">$2,50</td>
+          </tr>
+          <tr>
+            <td><code>LN-2026-0103</code></td>
+            <td><strong>Driss Bensalem</strong><br><small style="color:#64748b;">PAT-1006</small></td>
+            <td>Postgraduate</td>
+            <td><code>LIB-100106</code></td>
+            <td>The Pragmatic Programmer: Your Journey to Mastery</td>
+            <td>2026-11-09</td>
+            <td class="right"><strong>0</strong></td>
+            <td><span class="pill pill-duesoon">DueSoon</span></td>
+            <td class="right" style="font-weight:700; color:#1e293b;">$0,00</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="section">
+      <h2>Active Holds & Hold Shelf Pickups</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Hold ID</th>
+            <th>Item Barcode</th>
+            <th>Title</th>
+            <th>Reserving Patron</th>
+            <th>Request Date</th>
+            <th>Hold Status</th>
+            <th>Pickup Deadline</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>HLD-2026-001</code></td>
+            <td><code>LIB-100103</code></td>
+            <td>Design Patterns: Elements of Reusable Object-Oriented Software</td>
+            <td><strong>Dr. Robert Langdon</strong> (PAT-1002)</td>
+            <td>2026-11-03</td>
+            <td><strong>AwaitingPickup</strong></td>
+            <td>2026-11-10</td>
+          </tr>
+          <tr>
+            <td><code>HLD-2026-002</code></td>
+            <td><code>LIB-100105</code></td>
+            <td>Artificial Intelligence: A Modern Approach</td>
+            <td><strong>Alice Martin</strong> (PAT-1001)</td>
+            <td>2026-11-05</td>
+            <td><strong>Queued</strong></td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td><code>HLD-2026-003</code></td>
+            <td><code>LIB-100107</code></td>
+            <td>Operating System Concepts</td>
+            <td><strong>Elena Rostova</strong> (PAT-1007)</td>
+            <td>2026-11-06</td>
+            <td><strong>Queued</strong></td>
+            <td>-</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

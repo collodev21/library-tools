@@ -1,0 +1,4 @@
+﻿TransactionId	Date	LoanId	PatronId	Amount	Type	Method	Reason	StaffOperator	ReceiptNumber
+TX-2026-001	2026-10-16 11:30	LN-2026-0095	PAT-1001	2,00	Payment	Cash	Late return 4 days	Desk-Samir	REC-20261016-001
+TX-2026-002	2026-10-23 11:30	LN-2026-0096	PAT-1003	3,00	Payment	StudentAccount	Late return 6 days	Desk-Leila	REC-20261023-002
+TX-2026-003	2026-10-18 11:30	LN-2026-0097	PAT-1006	0,50	Waiver	Waived	System grace / snow courier closure waiver	ChiefLibrarian	WAV-20261018-001

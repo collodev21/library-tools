@@ -1,0 +1,12 @@
+﻿LoanId,ItemBarcode,Title,Author,CallNumber,PatronId,PatronName,Category,CheckoutDate,DueDate,ReturnDate,DaysOverdue,Status,RenewalCount,AssessedFine,PaidFine
+"LN-2026-0101","LIB-100101","Clean Code: A Handbook of Agile Software Craftsmanship","Robert C. Martin","005.13 MAR","PAT-1001","Alice Martin","Undergraduate","2026-11-01","2026-11-15","",0,"Active",0,0,00,0,00
+"LN-2026-0102","LIB-100102","Introduction to Algorithms (4th Edition)","Thomas H. Cormen et al.","005.1 COR","PAT-1004","Prof. Amina Mansouri","Faculty","2026-10-18","2027-01-16","",0,"Active",0,0,00,0,00
+"LN-2026-0103","LIB-100106","The Pragmatic Programmer: Your Journey to Mastery","David Thomas & Andrew Hunt","005.1 THO","PAT-1006","Driss Bensalem","Postgraduate","2026-10-12","2026-11-09","",0,"Active",0,0,00,0,00
+"LN-2026-0104","LIB-100107","Operating System Concepts (10th Edition)","Abraham Silberschatz","005.43 SIL","PAT-1003","Kevin Zhang","Undergraduate","2026-10-19","2026-11-02","",5,"Active",0,0,00,0,00
+"LN-2026-0105","LIB-100109","Computer Networks: A Systems Approach","Larry L. Peterson & Bruce S. Davie","004.6 PET","PAT-1005","Sarah Connor","Community","2026-10-09","2026-10-23","",15,"Active",0,0,00,0,00
+"LN-2026-0106","LIB-100110","Compilers: Principles, Techniques, and Tools (Dragon Book)","Alfred V. Aho, Monica S. Lam, Ravi Sethi","005.45 AHO","PAT-1008","Tariq Haddad","Community","2026-09-16","2026-09-30","",38,"Active",0,0,00,0,00
+"LN-2026-0107","LIB-100111","Medieval Manuscripts & Sacred Geometry","Umberto Eco & Robert Langdon","091.2 ECO","PAT-1002","Dr. Robert Langdon","Faculty","2026-10-08","2027-01-06","",0,"Active",1,0,00,0,00
+"LN-2026-0108","LIB-100112","Modern Operating Systems (4th Edition)","Andrew S. Tanenbaum","005.43 TAN","PAT-1007","Elena Rostova","Postgraduate","2026-10-28","2026-11-25","",0,"Active",0,0,00,0,00
+"LN-2026-0095","LIB-100104","Structure and Interpretation of Computer Programs","Harold Abelson & Gerald Jay Sussman","005.13 ABE","PAT-1001","Alice Martin","Undergraduate","2026-09-28","2026-10-12","2026-10-16",0,"Returned",0,2,00,2,00
+"LN-2026-0096","LIB-100105","Artificial Intelligence: A Modern Approach (4th Edition)","Stuart Russell & Peter Norvig","006.3 RUS","PAT-1003","Kevin Zhang","Undergraduate","2026-10-03","2026-10-17","2026-10-23",0,"Returned",0,3,00,3,00
+"LN-2026-0097","LIB-100108","Database System Concepts (7th Edition)","Abraham Silberschatz & Henry F. Korth","005.74 SIL","PAT-1006","Driss Bensalem","Postgraduate","2026-09-18","2026-10-16","2026-10-18",0,"Returned",0,0,50,0,00
